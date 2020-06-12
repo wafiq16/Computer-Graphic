@@ -1,0 +1,32 @@
+﻿  main.cpp
+  GLM: rotate function taking degrees as a parameter is deprecated. #define GLM_FORCE_RADIANS before including GLM headers to remove this message.
+  GLM: rotate_slow function taking degrees as a parameter is deprecated. #define GLM_FORCE_RADIANS before including GLM headers to remove this message.
+  GLM: perspective function taking degrees as a parameter is deprecated. #define GLM_FORCE_RADIANS before including GLM headers to remove this message.
+  GLM: perspectiveFov function taking degrees as a parameter is deprecated. #define GLM_FORCE_RADIANS before including GLM headers to remove this message.
+  GLM: infinitePerspective function taking degrees as a parameter is deprecated. #define GLM_FORCE_RADIANS before including GLM headers to remove this message.
+  GLM: tweakedInfinitePerspective function taking degrees as a parameter is deprecated. #define GLM_FORCE_RADIANS before including GLM headers to remove this message.
+  GLM: rotate function taking degrees as a parameter is deprecated. #define GLM_FORCE_RADIANS before including GLM headers to remove this message.
+  GLM: roll function returning degrees is deprecated. #define GLM_FORCE_RADIANS before including GLM headers to remove this message.
+  GLM: pitch function returning degrees is deprecated. #define GLM_FORCE_RADIANS before including GLM headers to remove this message.
+  GLM: yaw function returning degrees is deprecated. #define GLM_FORCE_RADIANS before including GLM headers to remove this message.
+  GLM: angle function returning degrees is deprecated. #define GLM_FORCE_RADIANS before including GLM headers to remove this message.
+  GLM: angleAxis function taking degrees as a parameter is deprecated. #define GLM_FORCE_RADIANS before including GLM headers to remove this message.
+c:\users\wafiq\source\repos\project_opengl_1\project_opengl_1\main.cpp(93): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\wafiq\source\repos\project_opengl_1\project_opengl_1\main.cpp(106): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\wafiq\source\repos\project_opengl_1\project_opengl_1\main.cpp(107): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\wafiq\source\repos\project_opengl_1\project_opengl_1\main.cpp(108): warning C4477: 'fprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'double'
+c:\users\wafiq\source\repos\project_opengl_1\project_opengl_1\main.cpp(108): warning C4477: 'fprintf' : format string '%d' requires an argument of type 'int', but variadic argument 2 has type 'double'
+c:\users\wafiq\source\repos\project_opengl_1\project_opengl_1\main.cpp(118): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+c:\users\wafiq\source\repos\project_opengl_1\project_opengl_1\main.cpp(120): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\wafiq\source\repos\project_opengl_1\project_opengl_1\main.cpp(125): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+c:\users\wafiq\source\repos\project_opengl_1\project_opengl_1\main.cpp(116): warning C4101: 'angle': unreferenced local variable
+c:\users\wafiq\source\repos\project_opengl_1\project_opengl_1\main.cpp(132): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+c:\users\wafiq\source\repos\project_opengl_1\project_opengl_1\main.cpp(133): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+c:\users\wafiq\source\repos\project_opengl_1\project_opengl_1\main.cpp(134): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+c:\users\wafiq\source\repos\project_opengl_1\project_opengl_1\main.cpp(141): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+c:\users\wafiq\source\repos\project_opengl_1\project_opengl_1\main.cpp(142): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+c:\users\wafiq\source\repos\project_opengl_1\project_opengl_1\main.cpp(143): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+c:\users\wafiq\source\repos\project_opengl_1\project_opengl_1\main.cpp(185): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+c:\users\wafiq\source\repos\project_opengl_1\project_opengl_1\main.cpp(189): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+  GLM: rotate function taking degrees as a parameter is deprecated. #define GLM_FORCE_RADIANS before including GLM headers to remove this message.
+  Project_Opengl_1.vcxproj -> C:\Users\wafiq\source\repos\Project_Opengl_1\Debug\Project_Opengl_1.exe

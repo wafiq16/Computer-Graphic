@@ -1,0 +1,220 @@
+﻿  opengl2.cpp
+  Note: including file: C:\Users\wafiq\source\glew-2.1.0\include\GL/glew.h
+  Note: including file:  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/glu.h
+  Note: including file:   C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\shared\winapifamily.h
+  Note: including file:    C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\shared\winpackagefamily.h
+  Note: including file:   C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h
+  Note: including file: C:\Users\wafiq\source\glfw-3.3.2.bin.WIN32 (1)\glfw-3.3.2.bin.WIN32\include\GLFW/glfw3.h
+  Note: including file:  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stddef.h
+  Note: including file:   C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt.h
+  Note: including file:    C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\vcruntime.h
+  Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\sal.h
+  Note: including file:      C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\concurrencysal.h
+  Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\vadefs.h
+  Note: including file:  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\stdint.h
+  Note: including file:  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\GL/gl.h
+  Note: including file: C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\iostream
+  Note: including file:  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\istream
+  Note: including file:   C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\ostream
+  Note: including file:    C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\ios
+  Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xlocnum
+  Note: including file:      C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\climits
+  Note: including file:       C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\yvals.h
+  Note: including file:        C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\yvals_core.h
+  Note: including file:         C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xkeycheck.h
+  Note: including file:         C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\crtdefs.h
+  Note: including file:        C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\crtdbg.h
+  Note: including file:         C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\vcruntime_new_debug.h
+  Note: including file:          C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\vcruntime_new.h
+  Note: including file:        C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\use_ansi.h
+  Note: including file:       C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\limits.h
+  Note: including file:      C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\cmath
+  Note: including file:       C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\cstdlib
+  Note: including file:        C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdlib.h
+  Note: including file:         C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_malloc.h
+  Note: including file:         C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_search.h
+  Note: including file:         C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstdlib.h
+  Note: including file:        C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\math.h
+  Note: including file:         C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_math.h
+  Note: including file:       C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xtgmath.h
+  Note: including file:        C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xtr1common
+  Note: including file:      C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\cstdio
+  Note: including file:       C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h
+  Note: including file:        C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstdio.h
+  Note: including file:         C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_stdio_config.h
+  Note: including file:      C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\streambuf
+  Note: including file:       C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xiosbase
+  Note: including file:        C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xlocale
+  Note: including file:         C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\cstring
+  Note: including file:          C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h
+  Note: including file:           C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_memory.h
+  Note: including file:            C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_memcpy_s.h
+  Note: including file:             C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\errno.h
+  Note: including file:             C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\vcruntime_string.h
+  Note: including file:           C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstring.h
+  Note: including file:         C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\stdexcept
+  Note: including file:          C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\exception
+  Note: including file:           C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\type_traits
+  Note: including file:            C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xstddef
+  Note: including file:             C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\cstddef
+  Note: including file:             C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\initializer_list
+  Note: including file:           C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\malloc.h
+  Note: including file:           C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\vcruntime_exception.h
+  Note: including file:            C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\eh.h
+  Note: including file:             C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_terminate.h
+  Note: including file:          C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xstring
+  Note: including file:           C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xmemory0
+  Note: including file:            C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\cstdint
+  Note: including file:            C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\limits
+  Note: including file:             C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\ymath.h
+  Note: including file:             C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\cfloat
+  Note: including file:              C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\float.h
+  Note: including file:             C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\cwchar
+  Note: including file:              C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\wchar.h
+  Note: including file:               C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wconio.h
+  Note: including file:               C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wctype.h
+  Note: including file:               C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wdirect.h
+  Note: including file:               C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wio.h
+  Note: including file:                C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_share.h
+  Note: including file:               C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wprocess.h
+  Note: including file:               C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wtime.h
+  Note: including file:               C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\sys/stat.h
+  Note: including file:                C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\sys/types.h
+  Note: including file:            C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\new
+  Note: including file:            C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xutility
+  Note: including file:             C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\utility
+  Note: including file:              C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\iosfwd
+  Note: including file:            C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xatomic0.h
+  Note: including file:            C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\intrin0.h
+  Note: including file:         C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\typeinfo
+  Note: including file:          C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\vcruntime_typeinfo.h
+  Note: including file:         C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xlocinfo
+  Note: including file:          C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xlocinfo.h
+  Note: including file:           C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\ctype.h
+  Note: including file:           C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\locale.h
+  Note: including file:         C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\memory
+  Note: including file:          C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xmemory
+  Note: including file:         C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xfacet
+  Note: including file:        C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\system_error
+  Note: including file:         C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\cerrno
+  Note: including file:         C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xcall_once.h
+  Note: including file:         C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xerrc.h
+  Note: including file:        C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\share.h
+  Note: including file: C:\Users\wafiq\source\glm-0.9.5\glm/glm.hpp
+  Note: including file:  c:\users\wafiq\source\glm-0.9.5\glm\detail/_fixes.hpp
+  Note: including file:  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\cassert
+  Note: including file:   C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\assert.h
+  Note: including file:  c:\users\wafiq\source\glm-0.9.5\glm\fwd.hpp
+  Note: including file:   c:\users\wafiq\source\glm-0.9.5\glm\detail/type_int.hpp
+  Note: including file:    c:\users\wafiq\source\glm-0.9.5\glm\detail\setup.hpp
+  Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\cassert
+  Note: including file:      C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\assert.h
+  Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\immintrin.h
+  Note: including file:      C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\wmmintrin.h
+  Note: including file:       C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\nmmintrin.h
+  Note: including file:        C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\smmintrin.h
+  Note: including file:         C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\tmmintrin.h
+  Note: including file:          C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\pmmintrin.h
+  Note: including file:           C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\emmintrin.h
+  Note: including file:            C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xmmintrin.h
+  Note: including file:             C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\mmintrin.h
+  Note: including file:      C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\zmmintrin.h
+  Note: including file:   c:\users\wafiq\source\glm-0.9.5\glm\detail/type_float.hpp
+  Note: including file:   c:\users\wafiq\source\glm-0.9.5\glm\detail/type_vec.hpp
+  Note: including file:    c:\users\wafiq\source\glm-0.9.5\glm\detail\precision.hpp
+  Note: including file:   c:\users\wafiq\source\glm-0.9.5\glm\detail/type_mat.hpp
+  Note: including file:  c:\users\wafiq\source\glm-0.9.5\glm\vec2.hpp
+  Note: including file:   c:\users\wafiq\source\glm-0.9.5\glm\detail/type_vec2.hpp
+  Note: including file:    c:\users\wafiq\source\glm-0.9.5\glm\detail\type_vec2.inl
+  Note: including file:  c:\users\wafiq\source\glm-0.9.5\glm\vec3.hpp
+  Note: including file:   c:\users\wafiq\source\glm-0.9.5\glm\detail/type_vec3.hpp
+  Note: including file:    c:\users\wafiq\source\glm-0.9.5\glm\detail\type_vec3.inl
+  Note: including file:  c:\users\wafiq\source\glm-0.9.5\glm\vec4.hpp
+  Note: including file:   c:\users\wafiq\source\glm-0.9.5\glm\detail/type_vec4.hpp
+  Note: including file:    c:\users\wafiq\source\glm-0.9.5\glm\detail\type_vec4.inl
+  Note: including file:  c:\users\wafiq\source\glm-0.9.5\glm\mat2x2.hpp
+  Note: including file:   c:\users\wafiq\source\glm-0.9.5\glm\detail/type_mat2x2.hpp
+  Note: including file:    c:\users\wafiq\source\glm-0.9.5\glm\detail\type_mat2x2.inl
+  Note: including file:  c:\users\wafiq\source\glm-0.9.5\glm\mat2x3.hpp
+  Note: including file:   c:\users\wafiq\source\glm-0.9.5\glm\detail/type_mat2x3.hpp
+  Note: including file:    c:\users\wafiq\source\glm-0.9.5\glm\detail\type_mat2x3.inl
+  Note: including file:  c:\users\wafiq\source\glm-0.9.5\glm\mat2x4.hpp
+  Note: including file:   c:\users\wafiq\source\glm-0.9.5\glm\detail/type_mat2x4.hpp
+  Note: including file:    c:\users\wafiq\source\glm-0.9.5\glm\detail\type_mat2x4.inl
+  Note: including file:  c:\users\wafiq\source\glm-0.9.5\glm\mat3x2.hpp
+  Note: including file:   c:\users\wafiq\source\glm-0.9.5\glm\detail/type_mat3x2.hpp
+  Note: including file:    c:\users\wafiq\source\glm-0.9.5\glm\detail\type_mat3x2.inl
+  Note: including file:  c:\users\wafiq\source\glm-0.9.5\glm\mat3x3.hpp
+  Note: including file:   c:\users\wafiq\source\glm-0.9.5\glm\detail/type_mat3x3.hpp
+  Note: including file:    c:\users\wafiq\source\glm-0.9.5\glm\detail\type_mat3x3.inl
+  Note: including file:  c:\users\wafiq\source\glm-0.9.5\glm\mat3x4.hpp
+  Note: including file:   c:\users\wafiq\source\glm-0.9.5\glm\detail/type_mat3x4.hpp
+  Note: including file:    c:\users\wafiq\source\glm-0.9.5\glm\detail\type_mat3x4.inl
+  Note: including file:  c:\users\wafiq\source\glm-0.9.5\glm\mat4x2.hpp
+  Note: including file:   c:\users\wafiq\source\glm-0.9.5\glm\detail/type_mat4x2.hpp
+  Note: including file:    c:\users\wafiq\source\glm-0.9.5\glm\detail\type_mat4x2.inl
+  Note: including file:  c:\users\wafiq\source\glm-0.9.5\glm\mat4x3.hpp
+  Note: including file:   c:\users\wafiq\source\glm-0.9.5\glm\detail/type_mat4x3.hpp
+  Note: including file:    c:\users\wafiq\source\glm-0.9.5\glm\detail\type_mat4x3.inl
+  Note: including file:  c:\users\wafiq\source\glm-0.9.5\glm\mat4x4.hpp
+  Note: including file:   c:\users\wafiq\source\glm-0.9.5\glm\detail/type_mat4x4.hpp
+  Note: including file:    c:\users\wafiq\source\glm-0.9.5\glm\detail\type_mat4x4.inl
+  Note: including file:  c:\users\wafiq\source\glm-0.9.5\glm\trigonometric.hpp
+  Note: including file:   c:\users\wafiq\source\glm-0.9.5\glm\detail/func_trigonometric.hpp
+  Note: including file:    c:\users\wafiq\source\glm-0.9.5\glm\detail\func_trigonometric.inl
+  Note: including file:     c:\users\wafiq\source\glm-0.9.5\glm\detail\_vectorize.hpp
+  Note: including file:  c:\users\wafiq\source\glm-0.9.5\glm\exponential.hpp
+  Note: including file:   c:\users\wafiq\source\glm-0.9.5\glm\detail/func_exponential.hpp
+  Note: including file:    c:\users\wafiq\source\glm-0.9.5\glm\detail\type_vec1.hpp
+  Note: including file:     c:\users\wafiq\source\glm-0.9.5\glm\detail\type_vec1.inl
+  Note: including file:    c:\users\wafiq\source\glm-0.9.5\glm\detail\func_exponential.inl
+  Note: including file:     c:\users\wafiq\source\glm-0.9.5\glm\detail\func_vector_relational.hpp
+  Note: including file:      c:\users\wafiq\source\glm-0.9.5\glm\detail\func_vector_relational.inl
+  Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\cassert
+  Note: including file:      C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\assert.h
+  Note: including file:  c:\users\wafiq\source\glm-0.9.5\glm\common.hpp
+  Note: including file:   c:\users\wafiq\source\glm-0.9.5\glm\detail/func_common.hpp
+  Note: including file:    c:\users\wafiq\source\glm-0.9.5\glm\detail\_fixes.hpp
+  Note: including file:    c:\users\wafiq\source\glm-0.9.5\glm\detail\func_common.inl
+  Note: including file:  c:\users\wafiq\source\glm-0.9.5\glm\packing.hpp
+  Note: including file:   c:\users\wafiq\source\glm-0.9.5\glm\detail/func_packing.hpp
+  Note: including file:    c:\users\wafiq\source\glm-0.9.5\glm\detail\func_packing.inl
+  Note: including file:     c:\users\wafiq\source\glm-0.9.5\glm\detail\type_half.hpp
+  Note: including file:      c:\users\wafiq\source\glm-0.9.5\glm\detail\type_half.inl
+  Note: including file:  c:\users\wafiq\source\glm-0.9.5\glm\geometric.hpp
+  Note: including file:   c:\users\wafiq\source\glm-0.9.5\glm\detail/func_geometric.hpp
+  Note: including file:    c:\users\wafiq\source\glm-0.9.5\glm\detail\func_geometric.inl
+  Note: including file:  c:\users\wafiq\source\glm-0.9.5\glm\matrix.hpp
+  Note: including file:   c:\users\wafiq\source\glm-0.9.5\glm\detail/func_matrix.hpp
+  Note: including file:    c:\users\wafiq\source\glm-0.9.5\glm\detail\func_matrix.inl
+  Note: including file:  c:\users\wafiq\source\glm-0.9.5\glm\vector_relational.hpp
+  Note: including file:  c:\users\wafiq\source\glm-0.9.5\glm\integer.hpp
+  Note: including file:   c:\users\wafiq\source\glm-0.9.5\glm\detail/func_integer.hpp
+  Note: including file:    c:\users\wafiq\source\glm-0.9.5\glm\detail\func_integer.inl
+  Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\intrin.h
+  Note: including file:      C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\setjmp.h
+  Note: including file:      C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\ammintrin.h
+  Note: including file:      C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\mm3dnow.h
+  Note: including file: C:\Users\wafiq\source\glm-0.9.5\glm/gtc/matrix_transform.hpp
+  Note: including file:  c:\users\wafiq\source\glm-0.9.5\glm\gtc\matrix_transform.inl
+  GLM: rotate function taking degrees as a parameter is deprecated. #define GLM_FORCE_RADIANS before including GLM headers to remove this message.
+  GLM: rotate_slow function taking degrees as a parameter is deprecated. #define GLM_FORCE_RADIANS before including GLM headers to remove this message.
+  GLM: perspective function taking degrees as a parameter is deprecated. #define GLM_FORCE_RADIANS before including GLM headers to remove this message.
+  GLM: perspectiveFov function taking degrees as a parameter is deprecated. #define GLM_FORCE_RADIANS before including GLM headers to remove this message.
+  GLM: infinitePerspective function taking degrees as a parameter is deprecated. #define GLM_FORCE_RADIANS before including GLM headers to remove this message.
+  GLM: tweakedInfinitePerspective function taking degrees as a parameter is deprecated. #define GLM_FORCE_RADIANS before including GLM headers to remove this message.
+  Note: including file: C:\Users\wafiq\source\glm-0.9.5\glm/gtc/type_ptr.hpp
+  Note: including file:  c:\users\wafiq\source\glm-0.9.5\glm\gtc\../gtc/quaternion.hpp
+  Note: including file:   c:\users\wafiq\source\glm-0.9.5\glm\gtc\../gtc/constants.hpp
+  Note: including file:    c:\users\wafiq\source\glm-0.9.5\glm\gtc\constants.inl
+  Note: including file:   c:\users\wafiq\source\glm-0.9.5\glm\gtc\quaternion.inl
+  GLM: rotate function taking degrees as a parameter is deprecated. #define GLM_FORCE_RADIANS before including GLM headers to remove this message.
+  GLM: roll function returning degrees is deprecated. #define GLM_FORCE_RADIANS before including GLM headers to remove this message.
+  GLM: pitch function returning degrees is deprecated. #define GLM_FORCE_RADIANS before including GLM headers to remove this message.
+  GLM: yaw function returning degrees is deprecated. #define GLM_FORCE_RADIANS before including GLM headers to remove this message.
+  GLM: angle function returning degrees is deprecated. #define GLM_FORCE_RADIANS before including GLM headers to remove this message.
+  GLM: angleAxis function taking degrees as a parameter is deprecated. #define GLM_FORCE_RADIANS before including GLM headers to remove this message.
+  Note: including file:  c:\users\wafiq\source\glm-0.9.5\glm\gtc\type_ptr.inl
+  Note: including file: C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\math.h
+  GLM: rotate function taking degrees as a parameter is deprecated. #define GLM_FORCE_RADIANS before including GLM headers to remove this message.
+  opengl2.vcxproj -> C:\Users\wafiq\source\repos\opengl2\Debug\opengl2.exe
